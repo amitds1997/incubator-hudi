@@ -488,7 +488,7 @@ public class HoodieTestDataGenerator {
     List<GenericRecord> list = new ArrayList<>();
     IntStream.range(0, numRecords).forEach(i -> {
       list.add(generateGenericRecord(UUID.randomUUID().toString(), UUID.randomUUID().toString(), UUID.randomUUID()
-          .toString(), rand.nextDouble()));
+          .toString(), RAND.nextDouble()));
     });
     return list;
   }

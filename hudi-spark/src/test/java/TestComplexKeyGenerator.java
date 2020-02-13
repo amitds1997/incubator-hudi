@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import org.apache.hudi.ComplexKeyGenerator;
+import org.apache.hudi.keygen.ComplexKeyGenerator;
 import org.apache.hudi.DataSourceWriteOptions;
 import org.apache.hudi.common.HoodieTestDataGenerator;
 import org.apache.hudi.common.model.HoodieKey;

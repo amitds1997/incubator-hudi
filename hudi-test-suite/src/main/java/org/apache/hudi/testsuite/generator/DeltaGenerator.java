@@ -18,7 +18,7 @@
 
 package org.apache.hudi.testsuite.generator;
 
-import org.apache.hudi.KeyGenerator;
+import org.apache.hudi.keygen.KeyGenerator;
 import org.apache.hudi.common.util.Option;
 import org.apache.hudi.testsuite.DeltaOutputType;
 import org.apache.hudi.testsuite.DeltaWriterAdapter;

@@ -165,7 +165,7 @@ NOTE : The properties-file should have all the necessary information required to
 ```
 shell$ ./prepare_integration_suite.sh --spark-command
 spark-submit --packages com.databricks:spark-avro_2.11:4.0.0 --master prepare_integration_suite.sh --deploy-mode
---properties-file  --class org.apache.hudi.testsuite.job.HoodieTestSuiteJob target/hudi-test-suite-0.5.1-SNAPSHOT.jar 
+--properties-file  --class org.apache.hudi.testsuite.job.HoodieTestSuiteJob target/hudi-test-suite-0.5.2-SNAPSHOT.jar 
 --source-class  --source-ordering-field  --input-base-path  --target-base-path  --target-table  --props  --storage-type  --payload-class  --workload-yaml-path  --input-file-size  --<deltastreamer-ingest>
 ```
 
